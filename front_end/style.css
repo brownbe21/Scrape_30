@@ -1,0 +1,36 @@
+html{
+	height:100%;
+	background-color: whitesmoke;
+}
+body {
+	width:1024px;
+	height: 100%;
+	margin:0 auto;
+}
+h1{
+	padding-top: 20px;
+	width: 600px;
+	margin: auto;
+	color: gray;
+	font-size: 60px;
+}
+
+
+
+.container {
+  width: 400px;
+  height: 100%;
+	margin:2% auto;
+  position: relative;
+  perspective: 1000px;
+}
+
+
+
+#face-color{
+	background-color: black;
+	opacity: 0.075;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+}

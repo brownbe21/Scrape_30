@@ -1,0 +1,26 @@
+var mongoose = require('mongoose');
+
+
+var Schema = mongoose.Schema;
+
+
+var headlineSchema = new Schema({
+	
+  headline: {
+    type: String,
+    required: true
+  },
+ 
+  summary:{
+    type: String,
+    required: true
+  },
+  // date is just a string
+  date: String,
+});
+
+
+var Headline = mongoose.model('Headline', headlineSchema);
+
+
+module.exports = Headline;
